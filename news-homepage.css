@@ -159,7 +159,7 @@ h3{
         display: none;
     }
     .menu{
-        display:block;
+        display: flex;
     }
     .imidesk img{
         width: 63vw;
