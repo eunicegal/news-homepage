@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    gap: 50px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction:row;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.menu{
+    display: none;
+}
+.sec1{
+    width: 100%;
+    display: flex;
+    gap: 280px;
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: space-around;
+}
+.imidesk img{
+    width: 63vw;
+}
+.imimob img{
+    display: none;
+}
+.second{
+    display: flex;
+    gap: 30px;
+}
+.dive{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right{
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: black;
+    padding: 10px;
+}
+.second button{
+    height: 6vh;
+    width: 9vw;
+    background-color: brown;
+    color: black;
+    border: none;
+}
+.second p{
+    width: 30vw;
+    font-size: 20px;
+}
+.second h1{
+    width: 30vw;
+    font-size: 50px;
+}
+.right h1{
+    color: orange;
+}
+.first p{
+    width: 23vw;
+    color:gray;
+}
+h3{
+    color: white;
+}
+.second1 p{
+    width: 21vw;
+    color: gray;
+}
+.third p{
+    width: 23vw;
+    color: gray;
+}
+.sec2{
+    display: flex;
+    width: 100%;
+    flex-direction:row;
+    gap: 42px;
+}
+.sec2 img{
+    height: 21vh;
+}
+.o1{
+    display: flex;
+    gap: 15px;
+}
+.o1 p{
+    width: 16vw;
+}
+.o2{
+    display: flex;
+    gap: 15px;
+}
+.o2 p{
+    width: 16vw;
+}
+.o3{
+    display: flex;
+    gap: 15px;
+}
+.o3 p{
+    width: 16vw;
+}
+.sec2 h3{
+    color: black;
+}
+.sec2 p{
+    font-size: 20px;
+    width: 20vw;
+}
+.sec2 h1{
+    color: hsl(5, 85%, 63%) ;
+}
+.reviving{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.the{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width:950px){
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 15px;
+        display: none;
+    }
+    .menu{
+        display:block;
+    }
+    .imidesk img{
+        width: 63vw;
+        display: none;
+    }
+    .imimob img{
+        display:block;
+        width: 75vw;
+    }
+    .sec1{
+        width: 100%;
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+    }
+    .second{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .dive{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .sec2{
+        display: flex;
+        width: 100%;
+        flex-direction:column;
+        gap: 42px;
+    }
+    .all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 70px;
+        gap: 20px;
+    }
+    .second p{
+        width: 75vw;
+        font-size: 20px;
+    }
+    .second h1{
+        width: 65vw;
+        font-size: 40px;
+    }
+    .second button{
+        height: 9vh;
+        width: 30vw;
+        background-color: brown;
+        color: black;
+        border: none;
+    }
+    .right{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background-color: black;
+        padding: 10px;
+    }
+    .first p{
+        width:54vw;
+        color:gray;
+    }
+    h3{
+        color: white;
+    }
+    .second1 p{
+        width: 54vw;
+        color: gray;
+    }
+    .third p{
+        width: 59vw;
+        color: gray;
+    }
+    .sec2 img{
+        height: 28vh;
+    }
+    .o1{
+        display: flex;
+        gap: 15px;
+    }
+    .o1 p{
+        width:50vw;
+    }
+    .o2{
+        display: flex;
+        gap: 15px;
+    }
+    .o2 p{
+        width: 16vw;
+    }
+    .o3{
+        display: flex;
+        gap: 15px;
+    }
+    .o3 p{
+        width: 16vw;
+    }
+    .sec2 h3{
+        color: black;
+    }
+    .sec2 p{
+        font-size: 20px;
+        width: 20vw;
+    }
+    .sec2 p{
+        font-size:17px;
+        width: 44vw;
+    }
+    
+    
+
+}
